@@ -1,1 +1,0 @@
-# Postgres data warehouse for write/read (via airflow)

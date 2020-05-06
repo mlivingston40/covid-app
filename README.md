@@ -6,7 +6,7 @@
 ## Component #2 (airflow)
 • Monitor/schedule ETLs
 
-## Component #3 (dw)
+## Component #3 (airflow/dw)
 • Postgres dw to write/read data for (dashboard)
 
 ## Deployment
