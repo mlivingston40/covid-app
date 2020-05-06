@@ -1,2 +1,5 @@
 venv/
 *.pyc
+airflow.cfg
+entrypoint.sh
+postgres/*.cfg
