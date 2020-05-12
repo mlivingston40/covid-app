@@ -4,10 +4,10 @@
     <list default="true" id="c00570f7-f6f4-4070-a0f1-a127eb2f4cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airflow/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/postgres/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/postgres/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/postgres/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/postgresMaster/postgres_creds.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/postgresMaster/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,9 +93,17 @@
         <option value="$PROJECT_DIR$/airflow/dags/scripts/avail_states.py" />
         <option value="$PROJECT_DIR$/airflow/dags/avail_state_table_write_dim.py" />
         <option value="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" />
+        <option value="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" />
+        <option value="$PROJECT_DIR$/airflow/postgres/rds.cfg" />
         <option value="$PROJECT_DIR$/airflow/.gitignore" />
         <option value="$PROJECT_DIR$/dashboard/.gitignore" />
-        <option value="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" />
+        <option value="$PROJECT_DIR$/airflow/rds.cfg" />
+        <option value="$PROJECT_DIR$/postgresMaster/createReadUser.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/postgresMaster/createWriteUser.py" />
+        <option value="$PROJECT_DIR$/postgresMaster/rds.cfg" />
+        <option value="$PROJECT_DIR$/postgresMaster/postgresCreds.py" />
+        <option value="$PROJECT_DIR$/postgresMaster/test.py" />
       </list>
     </option>
   </component>
@@ -89,6 +127,29 @@
               <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="covid-app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid-app" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid-app" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow" type="462c0819:PsiDirectoryNode" />
+              <item name="dags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid-app" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow" type="462c0819:PsiDirectoryNode" />
+              <item name="dags" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid-app" type="462c0819:PsiDirectoryNode" />
+              <item name="postgresMaster" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -111,8 +172,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/airflow" />
+      <recent name="$PROJECT_DIR$/dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,24 +227,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588783515432</updated>
-      <workItem from="1588783516751" duration="15358000" />
+      <workItem from="1588783516751" duration="23523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15358000" />
+    <option name="totallyTimeSpent" value="23523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-110" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19595315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36831683" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
@@ -205,16 +266,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/airflow/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="52" selection-start-column="52" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -248,25 +299,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-run-container.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-push-image.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-remove-container.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow/postgres/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -345,8 +382,39 @@
     <entry file="file://$PROJECT_DIR$/airflow/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/airflow.cfg">
+    <entry file="file://$PROJECT_DIR$/dashboard/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/state_table_write_dim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-run-container.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/postgres/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -358,53 +426,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/postgres/rds.cfg">
+    <entry file="file://$PROJECT_DIR$/dashboard/rds.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/createReadUser.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/postgres/rds.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/dags/state_table_write_dim.py">
+    <entry file="file://$PROJECT_DIR$/airflow/airflow.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="52" selection-start-column="52" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/rds.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="58" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/rds.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/createWriteUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/postgres_creds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

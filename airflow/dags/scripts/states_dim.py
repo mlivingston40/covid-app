@@ -18,4 +18,6 @@ from sqlalchemy import create_engine
 states_dim = pd.DataFrame(requests.get("https://covidtracking.com/api/v1/states/info.json").json())
 print(states_dim.head())
 
+print(len(states_dim))
+
 # states_dim.to_sql('covidtracking.states', postgresCon, if_exists='replace')
