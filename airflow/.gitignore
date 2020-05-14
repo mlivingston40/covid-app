@@ -4,3 +4,4 @@ airflow.cfg
 entrypoint.sh
 *.cfg
 dags/scripts/postgres_creds.py
+dags/scripts/test_script.py

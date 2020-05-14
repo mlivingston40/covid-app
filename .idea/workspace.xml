@@ -5,8 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airflow/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresMaster/createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/postgresMaster/createUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py" beforeDir="false" afterPath="$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +17,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.804862">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.63755274">
+          <split-first>
+            <splitter split-orientation="horizontal" split-proportion="0.48874173">
+              <split-first>
+                <leaf>
+                  <file pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim.py">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="600">
+                          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+                          <folding>
+                            <element signature="e#0#15#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/test_script.py">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="195">
+                          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+                          <folding>
+                            <element signature="e#1#16#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim_defensive.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="255">
+                      <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+                      <folding>
+                        <element signature="e#0#15#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="21" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+                <state relative-caret-position="685">
+                  <caret line="64" column="19" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -88,7 +136,6 @@
         <option value="$PROJECT_DIR$/airflow/dags/scripts/us_fact_api_daily.py" />
         <option value="$PROJECT_DIR$/airflow/dags/scripts/avail_states.py" />
         <option value="$PROJECT_DIR$/airflow/dags/avail_state_table_write_dim.py" />
-        <option value="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" />
         <option value="$PROJECT_DIR$/airflow/postgres/rds.cfg" />
         <option value="$PROJECT_DIR$/airflow/rds.cfg" />
         <option value="$PROJECT_DIR$/postgresMaster/createReadUser.py" />
@@ -100,19 +147,22 @@
         <option value="$PROJECT_DIR$/postgresMaster/README.md" />
         <option value="$PROJECT_DIR$/postgresMaster/createWriteUser.py" />
         <option value="$PROJECT_DIR$/postgresMaster/create-read-user-flow.sh" />
-        <option value="$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py" />
         <option value="$PROJECT_DIR$/postgresMaster/createTable.py" />
-        <option value="$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py" />
         <option value="$PROJECT_DIR$/dashboard/data-connections/postgres_creds.py" />
-        <option value="$PROJECT_DIR$/postgresMaster/createUser.py" />
         <option value="$PROJECT_DIR$/airflow/data-connections/postgres_creds.py" />
         <option value="$PROJECT_DIR$/postgresMaster/createSchema.py" />
         <option value="$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_daily_defensive.py" />
         <option value="$PROJECT_DIR$/airflow/test.py" />
         <option value="$PROJECT_DIR$/airflow/dags/dbSources/__init__.py" />
-        <option value="$PROJECT_DIR$/airflow/.gitignore" />
         <option value="$PROJECT_DIR$/dashboard/.gitignore" />
+        <option value="$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py" />
+        <option value="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" />
         <option value="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" />
+        <option value="$PROJECT_DIR$/airflow/.gitignore" />
+        <option value="$PROJECT_DIR$/airflow/dags/scripts/test_script.py" />
+        <option value="$PROJECT_DIR$/airflow/dags/scripts/states_dim_defensive.py" />
+        <option value="$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py" />
+        <option value="$PROJECT_DIR$/postgresMaster/createUser.py" />
       </list>
     </option>
   </component>
@@ -169,15 +219,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/airflow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/airflow/dags/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/airflow" />
       <recent name="$PROJECT_DIR$/airflow/dags/scripts" />
+      <recent name="$PROJECT_DIR$/airflow" />
       <recent name="$PROJECT_DIR$/airflow/dags" />
       <recent name="$PROJECT_DIR$/dashboard/data" />
       <recent name="$PROJECT_DIR$" />
@@ -241,24 +291,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588783515432</updated>
-      <workItem from="1588783516751" duration="43286000" />
+      <workItem from="1588783516751" duration="48532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43286000" />
+    <option name="totallyTimeSpent" value="48532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-880" y="-1440" width="3440" height="1440" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1848146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13301942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4729927" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.38540146" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
@@ -280,19 +330,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-pull-image.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-build-image.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -350,13 +387,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/dags/state_table_write_dim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-run-container.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,9 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/postgresMaster/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -538,22 +565,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_daily_defensive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/airflow/dbSources/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/postgres_creds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -571,16 +584,6 @@
     <entry file="file://$PROJECT_DIR$/airflow/venv/lib/python3.7/site-packages/psycopg2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresMaster/createUser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -588,24 +591,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/state_table_write_dim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_daily_defensive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/airflow/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postgresMaster/createTables_covid_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="685">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/test_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/createUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/postgres_creds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresMaster/grantSchemaUsage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim_defensive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow/dags/scripts/states_dim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

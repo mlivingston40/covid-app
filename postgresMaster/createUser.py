@@ -17,10 +17,10 @@ schema = input()
 print("Enter ACCESS TYPE")
 access = input()
 
-print("Enter USER NAME")
+print("Enter NEW USER NAME")
 name = input()
 
-print("Enter User PASSWORD")
+print("Enter USER PASSWORD")
 pw = input()
 
 # commands needed to set up user and access

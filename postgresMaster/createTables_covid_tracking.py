@@ -64,10 +64,12 @@ try:
         print(command)
         cur.execute(command)
 
-    # close communication with the PostgreSQL database server
-    cur.close()
     # commit the changes
     conn.commit()
+
+    # close communication with the PostgreSQL database server
+    cur.close()
+
 except (Exception, psycopg2.DataBaseError) as error:
     print(error)
 

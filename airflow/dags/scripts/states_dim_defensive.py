@@ -1,18 +1,9 @@
-import requests
-import pandas as pd
 import psycopg2
 import postgres_creds as creds
 
 """
-Called daily to replace covid_tracking.states -- Dimensional Table
+Called before states_dim.py as defensive programming to drop all rows
 """
-
-states_dim = pd.DataFrame(requests.get("https://covidtracking.com/api/v1/states/info.json").json())
-
-states_dim_trim = states_dim[['state', 'name']]
-
-combinedTupleList = [[s, n] for s, n in zip(states_dim_trim.state, states_dim_trim.name)]
-print(combinedTupleList)
 
 conn = None
 try:
@@ -22,9 +13,9 @@ try:
 
     cur = conn.cursor()
 
-    command = """INSERT INTO covid_tracking.states (state, name) VALUES(%s, %s)"""
+    command = """DELETE FROM covid_tracking.states"""
 
-    cur.executemany(command, combinedTupleList)
+    cur.execute(command)
 
     # commit the changes
     conn.commit()
