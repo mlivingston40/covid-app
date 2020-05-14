@@ -3,4 +3,4 @@ venv/
 airflow.cfg
 entrypoint.sh
 *.cfg
-data-connections/
+dags/scripts/postgres_creds.py
