@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00570f7-f6f4-4070-a0f1-a127eb2f4cfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_agg.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/state_fact_api_agg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/state_fact_api_daily.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/state_fact_api_daily_defensive.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/state_fact_api_daily_defensive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/states_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/states_dim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/states_dim_defensive.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/states_dim_defensive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/us_fact_api_agg.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/us_fact_api_agg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/scripts/us_fact_api_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/scripts/us_fact_api_daily.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/state_table_write_agg_fact.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/state_table_write_agg_fact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/state_table_write_daily_fact.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/state_table_write_daily_fact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/state_table_write_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/us_table_write_agg_fact.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/us_table_write_agg_fact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/us_table_write_daily_fact.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/us_table_write_daily_fact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgresMaster/createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/postgresMaster/createUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,17 +30,30 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/airflow_home/start-airflow.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/airflow_home/start-airflow.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/airflow_home/Dockerfile">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/airflow/README.md" />
         <option value="$PROJECT_DIR$/dw/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/airflow/dw/README.md" />
@@ -110,7 +103,6 @@
         <option value="$PROJECT_DIR$/airflow/postgres/rds.cfg" />
         <option value="$PROJECT_DIR$/airflow/rds.cfg" />
         <option value="$PROJECT_DIR$/postgresMaster/createReadUser.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/postgresMaster/rds.cfg" />
         <option value="$PROJECT_DIR$/postgresMaster/postgresCreds.py" />
         <option value="$PROJECT_DIR$/postgresMaster/test.py" />
@@ -137,6 +129,8 @@
         <option value="$PROJECT_DIR$/airflow_home/airflow.cfg" />
         <option value="$PROJECT_DIR$/airflow_home/.gitignore" />
         <option value="$PROJECT_DIR$/airflow_home/start-airflow.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py" />
       </list>
     </option>
   </component>
@@ -174,9 +168,13 @@
             <path>
               <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="covid-app" type="462c0819:PsiDirectoryNode" />
-              <item name="airflow_home" type="462c0819:PsiDirectoryNode" />
-              <item name="dags" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid-app" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="data-pulls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,15 +258,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588783515432</updated>
-      <workItem from="1588783516751" duration="55157000" />
+      <workItem from="1588783516751" duration="59037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55157000" />
+    <option name="totallyTimeSpent" value="59037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-880" y="-1440" width="3440" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13301942" />
@@ -277,7 +276,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4051095" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.46058396" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919708" />
@@ -299,12 +298,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-push-image.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-remove-container.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/airflow/postgres/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -574,16 +567,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/airflow_home/rds.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_home/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_home/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_home/airflow.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="73" column="8" selection-start-line="73" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_home/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow_home/dags/scripts/states_dim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="511">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -601,58 +629,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/rds.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/airflow_home/unittests.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_home/logs/dag_processor_manager/dag_processor_manager.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/test.py">
+    <entry file="file://$PROJECT_DIR$/airflow_home/dags/state_table_write_dim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airflow_home/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airflow_home/airflow.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="73" column="8" selection-start-line="73" selection-end-line="73" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/airflow_home/start-airflow.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
