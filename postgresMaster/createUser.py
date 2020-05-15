@@ -3,7 +3,7 @@ import postgres_creds as creds
 
 
 # for general write access
-# access = SELECT, UPDATE, INSERT
+# access = SELECT, UPDATE, INSERT, DELETE
 
 # for general select access
 # access = SELECT

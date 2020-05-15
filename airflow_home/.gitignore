@@ -1,7 +1,9 @@
 venv/
 *.pyc
-airflow.cfg
-entrypoint.sh
 *.cfg
 dags/scripts/postgres_creds.py
 dags/scripts/test_script.py
+logs/
+airflow-webserver.pid
+airflow.db
+.idea/
